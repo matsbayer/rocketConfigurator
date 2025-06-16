@@ -16,18 +16,18 @@ function App() {
       <h1>Rocket Configurator</h1>
       <div className="configurator">
         <div className="conf-menu">
-          <h3>Create your own unique rocket!</h3>
+          <h3>Create your unique rocket!</h3>
 
-          <p>Oberer Teil:</p>
+          <p>Upper section:</p>
           <TwitterPicker onChange={(color) => { setTopColor(color.hex) }} />
 
-          <p>Mittlerer Teil:</p>
+          <p>Middle section:</p>
           <TwitterPicker onChange={(color) => { setMiddleColor(color.hex) }} />
 
-          <p>Unterer Teil:</p>
+          <p>Lower section:</p>
           <TwitterPicker onChange={(color) => { setBottomColor(color.hex) }} />
 
-          <p>Stützen:</p>
+          <p>Supports:</p>
           <TwitterPicker onChange={(color) => { setLegColor(color.hex) }} />
         </div>
 

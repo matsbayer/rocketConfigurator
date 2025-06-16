@@ -7,6 +7,10 @@
     background-color: whitesmoke;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 .configurator {
   display: flex;
   flex-direction: row;
